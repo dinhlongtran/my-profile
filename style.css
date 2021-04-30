@@ -1,0 +1,138 @@
+body {
+	background-color :#f2edd7 ;
+}
+
+h1 {
+	color: #3a6351;
+	font-family:'Red Hat Display', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+	font-size: 55px;
+	text-transform: uppercase; 
+}
+
+h2 {
+	color: #e48257;
+	font-family:'Exo', sans-serif;
+	font-weight: bold;
+	letter-spacing: ;
+	font-size: 30px;
+	text-transform: uppercase; 
+}
+
+p {
+	color: #393232;
+	font-family:'Antic Slab', serif;
+	font-weight:lighter;
+	letter-spacing: ;
+	font-size: 20px;
+	text-transform: ; 
+}
+
+a {
+	color: #3a6351;
+	font-family:'Exo', sans-serif;
+	font-weight:bolder;
+	letter-spacing: ;
+	font-size: 30px ;
+	text-transform: uppercase; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1e6f5c ;
+	text-decoration: :none;
+}
+
+/*Custom design with class*/
+
+
+
+.container {
+	width: 700px ;
+	margin: 40px auto ;
+}
+
+
+@media (max-width: 1000px) {
+	.container {
+		width: 900px
+	}
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 800px
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 700px
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px
+	}
+}
+
+
+
+.card-white {
+	background-color: #f9f3f3;
+	padding: 20px 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50%;
+	border-style: solid blue	
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+
+}
+
+.list-inline i {
+	font-size: 50px
+}
+
+.emoji {
+	font-size: 35px
+}
+
+
+
+
+
+
+
+
+
+
+
